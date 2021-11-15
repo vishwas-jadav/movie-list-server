@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
+    "dev": "node dist/index.js",
+    "dev2": "nodemon dist/index.js",
     "migrate": "npx typeorm migration:run",
     "test": "jest"
   },
