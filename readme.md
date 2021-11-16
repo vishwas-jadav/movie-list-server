@@ -5,13 +5,15 @@
 1. Start with installing packages
 > npm install
 
-2. After that, to compile `.ts` files to `.js` files run
+2. copy .env.example content in .env file
+
+3. After that, to compile `.ts` files to `.js` files run
 > npm run build
 
-3. Also, migrations for database and populate it with following command
+4. Also, migrations for database and populate it with following command
 > npm run migrate
 
-4. Finally, to start the server, run : 
+5. Finally, to start the server, run : 
 > npm run dev
 
 ---
